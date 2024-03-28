@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-essential",
+        "@vue/eslint-config-typescript/recommended",
+        "@vue/eslint-config-prettier"
+    ],
+    "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "vue/multi-word-component-names": "off",
+        "vue/no-reserved-component-names": "off"
+    }
+}

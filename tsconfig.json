@@ -1,0 +1,16 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.json",
+    "compilerOptions": {
+        "types": ["vite/client", "unplugin-vue-router/client", "vite-plugin-vue-layouts/client", "node"],
+        "paths": {
+            "@/*": ["./resources/src/*"]
+        }
+    },
+    "include": [
+        "resources/src/**/*.d.ts",
+        "resources/src/**/*.ts",
+        "resources/src/**/*.js",
+        "resources/src/**/*.vue"
+    ],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
